@@ -1,0 +1,39 @@
+.mission-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+    margin-top: 5%;
+  }
+  
+  .mission-text {
+    width: 60%;
+  }
+  
+  .mission-title {
+    font-weight: bold;
+    color: gold;
+    margin-bottom: 10px;
+  }
+  
+  .mission-paragraph {
+    color: gold;
+    text-align: left;
+  }
+  
+  .mission-image {
+    width: 40%;
+    text-align: center;
+  }
+  
+  @media (max-width: 850px) {
+    .mission-container {
+      flex-direction: column;
+    }
+  
+    .mission-image {
+      width: 100%;
+      margin-top: 20px;
+    }
+  }
+  
