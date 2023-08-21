@@ -1,0 +1,66 @@
+.mentorCards-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row; /* Add this line */
+}
+
+.mentorCard {
+  width: 100%;
+  text-align: center;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.mentorCard-heading {
+  font-size: 1.5rem;
+  color: gold;
+  margin: 20px 0 10px 0;
+}
+
+.card-image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+}
+
+.mentorCard-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 2%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.mentorCard-text {
+  font-size: 1.2rem;
+  color: gold;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .mentorCards-container {
+    justify-content: center;
+  }
+
+  .mentorCard {
+    width: calc(33.33% - 10px);
+    margin-right: 20px;
+  }
+
+  .mentorCard:last-child {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mentorCards-container {
+    flex-direction: column; /* Add this line */
+  }
+}

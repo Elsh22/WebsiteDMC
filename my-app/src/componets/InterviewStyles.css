@@ -1,0 +1,62 @@
+.sports-container {
+    position: relative;
+    top: 1000px; /* adjust as needed */
+}
+
+
+body {
+background-color: black;
+}
+
+.title-container {
+text-align: center;
+margin-top: 5%;
+color: gold;
+font-size: 2rem;
+font-weight: 800;
+}
+
+.title-container p {
+font-size: 1.2rem;
+margin-bottom: 50px;
+}
+
+.image-slider {
+display: flex;
+overflow: hidden;
+width: 100%;
+justify-content: center;
+align-items: center;
+padding-bottom: 5%;
+}
+
+.image-slider img {
+width: 50%;
+height: 25%;
+object-fit: contain;
+transition: transform 5s ease-in-out;
+}
+
+button {
+position: absolute; /* set position property to absolute */
+top: 5%; /* position button in middle of image */
+}
+
+.image-slider button:first-child {
+left: 5%; /* position button to left of image */
+}
+
+.image-slider button:last-child {
+right: 5%; /* position button to right of image */
+}
+
+@media screen and (max-width: 800px) {
+.sports-container {
+    position: relative;
+    top: 1100px; /* adjust as needed */
+}
+.image-slider img {
+    width: 100%; /* adjust the width of images for smaller screens */
+    height: auto; /* adjust the height of images for smaller screens */
+}
+}

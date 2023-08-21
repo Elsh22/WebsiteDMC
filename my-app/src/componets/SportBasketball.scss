@@ -1,0 +1,132 @@
+.sport-baseball-container {
+    width: 100%;
+    height: 100vh;
+    background-color: #add8e6;
+    overflow: hidden;
+  
+    .sport-baseball-text-container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      opacity: 0;
+      transition: opacity 1s ease;
+  
+      h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        color: #fff;
+      }
+  
+      p {
+        font-size: 1.5rem;
+        color: #fff;
+      }
+    }
+  
+    .fade-in {
+      opacity: 1;
+    }
+  
+    .slide-in {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  
+    .basketball-container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) rotateX(90deg);
+      opacity: 0;
+      transition: opacity 1s ease, transform 1s ease;
+  
+      img {
+        width: 100px;
+      }
+    }
+  
+    .hoop-container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) rotateX(90deg);
+      opacity: 0;
+      transition: opacity 1s ease, transform 1s ease;
+  
+      img {
+        width: 200px;
+      }
+    }
+  
+    @keyframes slideInFromLeft {
+      0% {
+        transform: translateX(-50%);
+        opacity: 0;
+      }
+      100% {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+  }
+  
+  /* Media query for screens larger than 768px */
+  @media (min-width: 768px) {
+    .sport-baseball-container {
+      display: flex;
+      justify-content: space-between;
+  
+      .sport-baseball-text-container {
+        width: 50%;
+        text-align: left;
+        opacity: 0;
+        transform: translateX(-50%);
+        transition: opacity 1s ease, transform 1s ease;
+  
+        h1 {
+          font-size: 4rem;
+        }
+  
+        p {
+          font-size: 2rem;
+        }
+      }
+  
+      .basketball-container,
+      .hoop-container {
+        width: 50%;
+      }
+    }
+  }
+  
+  /* Scroll animations */
+  /* Basketball and hoop container */
+  .sport-baseball-container .basketball-container.fade-in,
+  .sport-baseball-container .hoop-container.fade-in {
+    animation: slideInFromLeft 1s ease-in-out forwards;
+  }
+  
+  /* Text container */
+  .sport-baseball-container .sport-baseball-text-container.fade-in {
+    opacity: 1;
+  }
+  .sport-baseball-container .sport-baseball-text-container.slide-in {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  .sport-baseball-container .sport-baseball-text-container.slide-out {
+    transform: translateX(-50%);
+    opacity: 0;
+  }
+  
+  /* Show basketball and hoop container when scrolled to */
+  @media (min-width: 768px) {
+    .sport-baseball-container .basketball-container.visible,
+    .sport-baseball-container .hoop-container.visible {
+      opacity: 1;
+      transform: translate(-50%, -50%) rotateX(0deg);
+    }
+  }
+  

@@ -1,0 +1,31 @@
+.Calendar{
+  margin-top: 10%;
+  color: gold;
+}
+.Calendar .fc-day-number {
+  color: gold;
+}
+
+.Calendar .fc-day-grid-event .fc-content {
+  color: gold;
+}
+
+.Calendar .fc-day-grid-event {
+  border-color: gold;
+}
+
+.orange-event .fc-event-main {
+  background-color: orange;
+}
+
+
+.fc-today-button.fc-button.fc-button-primary{
+  margin-top: 5%;
+  left: 1%;
+  }
+  @media (max-width: 855px) {
+    .fc-today-button.fc-button.fc-button-primary{
+      margin-top: 15%;
+      left: 50%;
+      }
+  }

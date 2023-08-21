@@ -1,0 +1,29 @@
+#instafeed-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+
+  a {
+    margin: 0.5rem;
+    transition: transform 0.2s ease-out;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      object-fit: cover;
+      aspect-ratio: 1/1;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    a {
+      margin: 0.25rem;
+    }
+  }
+}
