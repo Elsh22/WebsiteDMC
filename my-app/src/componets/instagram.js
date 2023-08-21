@@ -8,7 +8,7 @@ class InstagramFeed extends Component {
       get: 'user',
       target: 'instafeed-container',
       resolution: 'standard_resolution',
-      accessToken: 'IGQVJXR3MxWnZApaXJ4eTBtY0xnU2N5SmRTbkZA0RjVGQXE5OXUzaUVtX1pLTmpQRkJ2WnF1RlNqZA01FdFFBMzlqUmNXX0RoeFNGdnRWWmNfSlBlcE9jNXVvSWpWSmxnUmJtV2MzNnUwYk92NXRJOHlYTwZDZD', // Replace with your access token
+      accessToken: 'IGQWRQTi1udFpzMHpMOGdyeXZACd1lia2tKTUZAnVTh3SjZAadDhteXZAoVTM3anlILW5ieTF6MXJadHpCcW9DR0lkNGFyNjJJOGNMOWVTOUdfTG45YkxOQ3RpOG96US1YQ01JenItb2o0YkJRVEJzZAUdHMVFGaDItOTAZD', // Replace with your access token
       template: '<a href="{{link}}"><img src="{{image}}" /></a>'
     });
     userFeed.run();

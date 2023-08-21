@@ -21,8 +21,8 @@ function Hero(props) {
                 <h2>{props.extraTitle}</h2>
                 <p>{props.text}</p>
                 <p>{props.extraText}</p>
-                <div className="parent-container" >
-                    <iframe title={`youtube-video`} src={`https://www.youtube.com/embed/0P37B_g8lfQ`} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                <div className="parent-container">
+                    <iframe title={`youtube-video`} width="720"  height="405"  src={`https://www.youtube.com/embed/0P37B_g8lfQ?quality=high`}  frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen ></iframe>
                 </div>
                 <a href={props.url} target="_blank" rel="noopener noreferrer" className={props.btnClass}>{props.buttonText}</a>
             </div>

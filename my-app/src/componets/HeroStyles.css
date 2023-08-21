@@ -88,7 +88,11 @@ iframe {
     overflow: hidden;
 }
 
-
+.parent-container iframe {
+    max-width: 100%; 
+    aspect-ratio: 16 / 9; 
+  }
+  
 .number-indicator {
     position: relative;
     top: 10px;

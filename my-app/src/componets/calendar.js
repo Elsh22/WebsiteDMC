@@ -1,7 +1,8 @@
 import React from 'react';
-import { Calendar, momentLocalizer } from 'react-big-calendar';
+import { Calendar, momentLocalizer, Views } from 'react-big-calendar';
 import moment from 'moment';
 import 'react-big-calendar/lib/css/react-big-calendar.css'; // Import the styles
+import './CalendarStyles.css';
 
 const localizer = momentLocalizer(moment);
 
@@ -106,31 +107,36 @@ const events = [
   },
 ];
 
-function getDate(dayString) {
-    const today = new Date();
-    const year = today.getFullYear().toString();
-    let month = (today.getMonth() + 1).toString();
 
-    if (month.length === 1) {
-      month = "0" + month;
-    }
+const formatEvents = (events) => {
+  return events.map((event) => ({
+    ...event,
+    start: new Date(event.start),
+    end: new Date(event.end || event.start)
+  }));
+};
 
-    return dayString.replace("YEAR", year).replace("MONTH", month);
-}
+// Custom event rendering
+const EventComponent = ({ event }) => {
+  return (
+    <div className="custom-event">
+      <span className="event-title">{event.title}</span>
+    </div>
+  );
+};
 
 const CalendarWrapper = () => {
   return (
     <div className="Calendar">
       <Calendar
         localizer={localizer}
+        events={formatEvents(events)}
         defaultDate={new Date()}
-        defaultView="month"
-        events={events.map((event) => ({
-          ...event,
-          start: new Date(event.start),
-          end: new Date(event.start)
-        }))}
-        style={{ height: '100vh' }}
+        defaultView={Views.MONTH}
+        style={{ height: '100vh', width: '90%', margin: 'auto'}}
+        components={{
+          event: EventComponent,
+        }}
       />
     </div>
   );
