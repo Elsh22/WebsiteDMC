@@ -12,9 +12,9 @@ function Gallery (){
         <>
         <Navbar />
         <div className="carousel-container-con">
-        <Galleryphoto />
-        </div>
         <Instagram />
+        </div>
+        <Galleryphoto />
         </>
     )
 }
