@@ -5,6 +5,7 @@ import PlayGame from "../componets/PlayGame";
 import Interview from "../componets/Interview";
 import Suitday from "../componets/Suitday";
 import CalendarWrapper from "../componets/calendar";
+import Footer from '../componets/Footer';
 
 
 function Event (){
@@ -21,6 +22,7 @@ function Event (){
         <Suitday />
         <CalendarWrapper />
         </div>
+        <Footer  />
         </>
     )
 }

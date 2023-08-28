@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import Navbar from "../componets/Navbar";
 import Galleryphoto from "../componets/galleryphoto";
 import Instagram from "../componets/instagram";
+import Footer from '../componets/Footer';
 
 
 function Gallery (){
@@ -15,6 +16,7 @@ function Gallery (){
         <Instagram />
         </div>
         <Galleryphoto />
+        <Footer  />
         </>
     )
 }

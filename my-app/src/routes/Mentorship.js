@@ -4,6 +4,7 @@ import Cards from "../componets/Mentor";
 import Leader from "../componets/LeaderMentor";
 import Img1 from "../assets/7.png"
 import CardList from "../componets/MentorGoogle";
+import Footer from '../componets/Footer';
 
 
 function Mentorship (){
@@ -17,6 +18,7 @@ function Mentorship (){
         <Cards/>
         <div className="forms">
         <CardList />
+        <Footer  />
         </div>
 
         </>

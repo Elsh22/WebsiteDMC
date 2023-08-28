@@ -10,14 +10,17 @@
     "@testing-library/user-event": "^13.5.0",
     "cross-env": "^7.0.3",
     "firebase": "^10.2.0",
+    "font-awesome": "^4.7.0",
     "framer-motion": "^10.16.0",
     "instafeed.js": "^2.0.0",
     "moment": "^2.29.4",
     "react": "^18.2.0",
     "react-big-calendar": "^1.8.2",
+    "react-countup": "^6.4.2",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.15.0",
     "react-scripts": "5.0.1",
+    "react-scroll-trigger": "^0.6.14",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

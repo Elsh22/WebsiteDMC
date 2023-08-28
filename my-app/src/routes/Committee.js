@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import Navbar from "../componets/Navbar";
 import CommitteeTab from "../componets/CommitteeTab";
+import Footer from '../componets/Footer';
 
 
 function Committee (){
@@ -11,6 +12,7 @@ function Committee (){
         <>
         <Navbar />
         <CommitteeTab />
+        <Footer  />
         </>
     )
 }

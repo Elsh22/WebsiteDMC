@@ -2,6 +2,8 @@ import React, { useEffect } from 'react';
 import Navbar from "../componets/Navbar";
 import Hero from '../componets/Hero';
 import SundaySpot from '../componets/SundaySpot';
+import InfoSection from '../componets/InfoSection';
+import Footer from '../componets/Footer';
 
 
 
@@ -30,8 +32,10 @@ function Home (){
         nextName="Zion Segars"
         nextReason="DMC wants to recognize Zion Segars for earning the VCU Board of Visitors scholarship and an Internship with VCU’s MARC Research program."
         />
+        <InfoSection />
         </div>
         </div>
+        <Footer  />
         </>
     )
 }

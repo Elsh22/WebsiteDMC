@@ -4,6 +4,7 @@ import SportsMain from "../componets/SportsMain";
 import SportsAbout from "../componets/SportsAbout";
 import SportsExplore from "../componets/SportsExplore";
 import SportsSteps from "../componets/SportsSteps";
+import Footer from '../componets/Footer';
 // import SportsContact from "../componets/SportsContact";
 
 
@@ -20,6 +21,7 @@ function SportsDmc() {
         <SportsAbout />
         <SportsSteps />
         <SportsExplore />
+        <Footer  />
       </div>
     </>
   );

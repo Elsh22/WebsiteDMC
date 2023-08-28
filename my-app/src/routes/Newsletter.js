@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import Navbar from "../componets/Navbar";
 import News from "../componets/News";
 import LatestNewsletter from "../componets/LatestNewsletter";
+import Footer from '../componets/Footer';
 
 
 
@@ -14,6 +15,7 @@ function Newsletter (){
         <Navbar />
         <LatestNewsletter />
         <News />
+        <Footer  />
         </>
     )
 }

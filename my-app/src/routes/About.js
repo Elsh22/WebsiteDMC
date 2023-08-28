@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import Navbar from "../componets/Navbar";
 import AboutTeam from "../componets/AboutTeam";
 import Mission from "../componets/Mission";
+import Footer from '../componets/Footer';
 
 function About (){
     useEffect(() => {
@@ -12,6 +13,7 @@ function About (){
         <Navbar />
         <Mission />
         <AboutTeam />
+        <Footer />
         </>
     )
 }
