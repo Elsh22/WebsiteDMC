@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
-import Navbar from "../componets/Navbar";
-import News from "../componets/News";
-import LatestNewsletter from "../componets/LatestNewsletter";
-import Footer from '../componets/Footer';
+import Navbar from "../componets/Navbar/Navbar";
+import News from "../componets/NewsletterC/News";
+import LatestNewsletter from "../componets/NewsletterC/LatestNewsletter";
+import Footer from '../componets/FooterC/Footer';
 
 
 

@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
-import Navbar from "../componets/Navbar";
-import SportsMain from "../componets/SportsMain";
-import SportsAbout from "../componets/SportsAbout";
-import SportsExplore from "../componets/SportsExplore";
-import SportsSteps from "../componets/SportsSteps";
-import Footer from '../componets/Footer';
-// import SportsContact from "../componets/SportsContact";
+import Navbar from "../componets/Navbar/Navbar";
+import SportsMain from "../componets/SportsDmcC/SportsMain";
+import SportsAbout from "../componets/SportsDmcC/SportsAbout";
+import SportsExplore from "../componets/SportsDmcC/SportsExplore";
+import SportsSteps from "../componets/SportsDmcC/SportsSteps";
+import Footer from '../componets/FooterC/Footer';
+
 
 
 function SportsDmc() {

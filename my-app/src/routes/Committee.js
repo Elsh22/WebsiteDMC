@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
-import Navbar from "../componets/Navbar";
-import CommitteeTab from "../componets/CommitteeTab";
-import Footer from '../componets/Footer';
+import Navbar from "../componets/Navbar/Navbar";
+import CommitteeTab from "../componets/CommitteeC/CommitteeTab";
+import Footer from '../componets/FooterC/Footer';
 
 
 function Committee (){

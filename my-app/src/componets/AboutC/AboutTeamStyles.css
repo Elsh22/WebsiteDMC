@@ -1,0 +1,36 @@
+.teamContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.teamMember {
+  text-align: center;
+  width: 300px;
+  margin: 20px;
+}
+
+.image-wrapper {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid black; /* Adjust the border thickness and color as desired */
+  overflow: hidden;
+}
+
+.teamMember img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.teamMember h3 {
+  color: black;
+  margin-top: 20px;
+}
+
+.teamMember p {
+  color: black;
+}

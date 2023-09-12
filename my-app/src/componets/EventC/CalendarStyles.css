@@ -1,0 +1,45 @@
+.Calendar{
+  margin-top: 10%;
+  color: black;
+}
+.Calendar .fc-day-number {
+  color: black;
+}
+
+.Calendar .fc-day-grid-event .fc-content {
+  color: black;
+}
+
+.Calendar .fc-day-grid-event {
+  border-color: black;
+}
+
+.orange-event .fc-event-main {
+  background-color: orange;
+}
+
+.custom-event {
+  background-color: gold;
+  color: white;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+/* Event title */
+.event-title {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+
+
+.fc-today-button.fc-button.fc-button-primary{
+  margin-top: 5%;
+  left: 1%;
+  }
+  @media (max-width: 855px) {
+    .fc-today-button.fc-button.fc-button-primary{
+      margin-top: 15%;
+      left: 50%;
+      }
+  }

@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
-import Navbar from "../componets/Navbar";
-import LinkdInInterships from "../componets/LinkdInIntership";
-import PlayGame from "../componets/PlayGame";
-import Interview from "../componets/Interview";
-import Suitday from "../componets/Suitday";
-import CalendarWrapper from "../componets/calendar";
-import Footer from '../componets/Footer';
+import Navbar from "../componets/Navbar/Navbar";
+import LinkdInInterships from "../componets/EventC/LinkdInIntership";
+import PlayGame from "../componets/EventC/PlayGame";
+import Interview from "../componets/EventC/Interview";
+import Suitday from "../componets/EventC/Suitday";
+import CalendarWrapper from "../componets/EventC/calendar";
+import Footer from '../componets/FooterC/Footer';
 
 
 function Event (){
@@ -16,11 +16,11 @@ function Event (){
         <>
         <Navbar />
         <div className="link">
+        <CalendarWrapper />
         <LinkdInInterships />
         <PlayGame />
         <Interview />
         <Suitday />
-        <CalendarWrapper />
         </div>
         <Footer  />
         </>

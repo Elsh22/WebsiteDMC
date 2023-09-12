@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
-import Navbar from "../componets/Navbar";
-import AboutTeam from "../componets/AboutTeam";
-import Mission from "../componets/Mission";
-import Footer from '../componets/Footer';
+import Navbar from "../componets/Navbar/Navbar";
+import AboutTeam from "../componets/AboutC/AboutTeam";
+import Mission from "../componets/AboutC/Mission";
+import Footer from '../componets/FooterC/Footer';
 
 function About (){
     useEffect(() => {

@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
-import Navbar from "../componets/Navbar";
-import ContactForm from "../componets/ContactForm";
-import Footer from '../componets/Footer';
+import Navbar from "../componets/Navbar/Navbar";
+import ContactForm from "../componets/ContactC/ContactForm";
+import Footer from '../componets/FooterC/Footer';
 
 
 

@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
-import Navbar from "../componets/Navbar";
-import Galleryphoto from "../componets/galleryphoto";
-import Instagram from "../componets/instagram";
-import Footer from '../componets/Footer';
+import Navbar from "../componets/Navbar/Navbar";
+import Galleryphoto from "../componets/GalleryC/galleryphoto";
+import Instagram from "../componets/GalleryC/instagram";
+import Footer from '../componets/FooterC/Footer';
 
 
 function Gallery (){
@@ -13,9 +13,9 @@ function Gallery (){
         <>
         <Navbar />
         <div className="carousel-container-con">
-        <Instagram />
-        </div>
         <Galleryphoto />
+        </div>
+        <Instagram />
         <Footer  />
         </>
     )

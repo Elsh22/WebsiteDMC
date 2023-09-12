@@ -1,0 +1,32 @@
+#instafeed-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+#instafeed-container a {
+  flex-basis: calc(33.333% - 1rem);  /* For 3 columns, adjust as needed */
+  margin: 0.5rem;
+  transition: transform 0.2s ease-out;
+}
+
+#instafeed-container a:hover {
+  transform: scale(1.05);
+}
+
+#instafeed-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  #instafeed-container a {
+      flex-basis: calc(50% - 1rem);  /* For 2 columns in larger screens */
+  }
+}
+
+  
+  

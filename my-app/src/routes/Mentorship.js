@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
-import Navbar from "../componets/Navbar";
-import Cards from "../componets/Mentor";
-import Leader from "../componets/LeaderMentor";
-import Img1 from "../assets/7.png"
-import CardList from "../componets/MentorGoogle";
-import Footer from '../componets/Footer';
+import Navbar from "../componets/Navbar/Navbar";
+import Cards from "../componets/MentorshipC/Mentor";
+import Leader from "../componets/MentorshipC/LeaderMentor";
+import Img1 from "../assets/Josh.jpg"
+import CardList from "../componets/MentorshipC/MentorGoogle";
+import Footer from '../componets/FooterC/Footer';
 
 
 function Mentorship (){
@@ -14,12 +14,12 @@ function Mentorship (){
     return(
         <>
         <Navbar />
-        <Leader name="Adam Haidari" image={Img1} url="https://www.linkedin.com/in/adam-haidari789/" Leader="Leadership role: Mentorship Director" />
+        <Leader name="Josh Hines" image={Img1} url="https://www.linkedin.com/in/joshhines4/" Leader="Leadership role: Mentorship Director" />
         <Cards/>
         <div className="forms">
         <CardList />
-        <Footer  />
         </div>
+        <Footer  />
 
         </>
     )
