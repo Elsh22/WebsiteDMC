@@ -4,13 +4,13 @@ import { getAnalytics } from "firebase/analytics";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDgUG2fXYtjiEk6UPaPjZQXx7OZ8Rv7rTo",
-  authDomain: "dmc-map-375617.firebaseapp.com",
-  projectId: "dmc-map-375617",
-  storageBucket: "dmc-map-375617.appspot.com",
-  messagingSenderId: "146132890387",
-  appId: "1:146132890387:web:2c78b585eef0e1086860e6",
-  measurementId: "G-2MT5GW4LRB"
+  apiKey: "apikeyisnothere",
+  authDomain: "if",
+  projectId: "not",
+  storageBucket: "not",
+  messagingSenderId: "not",
+  appId: "not",
+  measurementId: "not"
 };
 
 // Initialize Firebase
