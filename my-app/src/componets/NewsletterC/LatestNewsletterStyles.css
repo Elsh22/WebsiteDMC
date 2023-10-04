@@ -26,8 +26,8 @@
   }
   
   .image-container img {
-    max-width: 100%;
-    height: auto;
+    width: 30%;
+    height: 30%;
     object-fit: contain; /* Prevent the image from being stretched */
   }
   

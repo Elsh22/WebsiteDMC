@@ -6,12 +6,6 @@ export const MenuItems = [
         icon: "fa-solid fa-house"
     },
     {
-        title: "DMC Sports ",
-        url: "/SportsDmc",
-        cName: "nav-links",
-        icon: "fa-solid fa-basketball"
-    },
-    {
         title: "Events",
         url: "/Event",
         cName: "nav-links",
@@ -34,6 +28,12 @@ export const MenuItems = [
         url: "/Newsletter",
         cName: "nav-links",
         icon: "fa-solid fa-newspaper"
+    },
+    {
+        title: "DMC Sports ",
+        url: "/SportsDmc",
+        cName: "nav-links",
+        icon: "fa-solid fa-basketball"
     },
     {
         title: "Contact",

@@ -1,31 +1,20 @@
 import React from 'react';
 import "./LatestNewsletterStyles.css";
-import img from '../../newassest/Newsletter.png';
+import img from '../../newassest/Newsletter.jpg';
 
 function LatestNewsletter() {
   return (
     <div className='latest-newsletter'>
       <h2>Hello DMC Members,</h2>
       <p>We have an exciting opportunity, especially for all majors looking to get more involved. We're eager to help everyone settle in and become a part of our vibrant community. If you're considering taking a more active role in our organization or joining one of our committees, we'd love to have you on board! Click on the links below to explore opportunities that align with your interests. This year, we're putting a special emphasis on increasing member involvement, and we'd be thrilled for you to be a part of that journey. Feel free to add the relevant links or other information where needed</p>
-      <h3>Upcoming Opportunities :</h3>
-      <h3>Citi bank:</h3>
-      <p>If you're a Business school student looking for an invaluable experience to jumpstart your career, don't miss this golden opportunity from Citi bank. There will be a recuiter coming hosting a event on 9/27 over zoom look out for the detail coming soon. Check out the details and apply here. Don't miss out on this unique internship experience!</p>
-      <h3>Exciting Internship Alert: Wells Fargo Sophomore Discovery Fellowship Program</h3>
-      <p>If you're a sophomore looking for an invaluable experience to jumpstart your career, don't miss this golden opportunity from Wells Fargo. The financial giant is offering a Sophomore Discovery Fellowship Program for 2024. This program is an excellent chance to gain industry insights and professional skills. Check out the details and apply here. Don't miss out on this unique internship experience!</p>
+      
       <div className="image-container">
         <img src={img} alt="DMC" />
       </div>
-      <h3>DMC Upcoming Events:</h3>
-      <h3>DMC's 6th Annual Men of Color Mixer (9/17 at 4 pm)</h3>
-      <p>DMC will host their first mixer of the year on Sunday, September 17th, 2023 from 4:00 pm - 7:00 pm in the Commons. We strongly recommend your attire is business attire ( if not come as you are). Please join us for this masterclass event that will consist of Networking, Professionalism, Community, Food, and much more!</p>
-      <h3>DMC’s First General Body Meeting (9/20)</h3>
-      <p>DMC will host their First General Body Meeting of the year on Wednesday, September 20th, at 7 p.m. at Ram's Lounge Mark your calendars for the First GBM of the semester. The event will be filled with opportunities to connect and meet other members plus excellent food. It will be an event you will not want to miss!</p>
-      <h3>DMC LinkedIn/Internship Workshop (9/28)</h3>
-      <p>Get ready for our LinkedIn/Internship Workshop on Wednesday, September 28th in Temple 1160 at 6 pm. This workshop will offer essential tips on optimizing your LinkedIn profile and navigating the internship search. Whether you're a new member or a seasoned veteran, this is an excellent opportunity to hone your professional skills.</p>
-      <h3>Flag Football Games:</h3>
-      <p>Don't miss an exhilarating evening of flag football this Sunday, September 17th, featuring our very own DMC and DMC Ringer teams! The first game will kick off at 7:30 PM at the Cary Street Feild. This is not just a game; it's an opportunity to come together as a community, show your support, and revel in the spirit of competition. Whether you're a die-hard flag football fan or just looking for a fun way to spend your Sunday evening, this event is the place to be. We encourage everyone to come out, cheer loudly, and enjoy a night of athletic prowess and community spirit. Mark your calendars and we look forward to seeing you there!</p>
+      <h3>DMC’s Second General Body Meeting (10/18)</h3>
+      <p>DMC will host their Second General Body Meeting of the year on Wednesday, October 18th, at 7 p.m. at Stem Building Mark your calendars for the Second GBM of the semester. The event will be filled with opportunities to connect and meet the CEO of Virginia Credit Union plus excellent food. It will be an event you will not want to miss!</p>
       <h3>Sunday Spotlight:</h3>
-      <p>DMC wants to recognize Naeem Ahmad for accepting his position as Laboratory Specialist for the bio-analytical laboratory for the VCU School of Pharmacy.</p>
+      <p>DMC Congratulates Darrel Otoo on his internship at Northrop Grumman!</p>
       <h3>Get Involved:</h3>
       <p>If you're looking to take a more active role in our organization or are considering joining one of our committees, we'd love to have you! Click on the links below to explore opportunities that interest you. This year, we're especially focused on increasing member involvement, and we'd be thrilled for you to be a part of that. If you have any questions about the committees the committee chair's emails are down below under the committees.</p>
       <h4>The Committees:</h4>

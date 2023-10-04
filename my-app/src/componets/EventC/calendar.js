@@ -23,7 +23,7 @@ const events = [
     end: "2023-09-28T21:00:00"
   },
   {
-    title: "2nd GBM at 7pm in the Ram lounge",
+    title: "2nd GBM @7pm @Stem Building room 218 and 216",
     start: "2023-10-18T19:00:00",
     end: "2023-10-18T21:00:00"
   },
