@@ -40,4 +40,36 @@
     color: purple;
     text-decoration: none; /* add underline on hover */
   }
+
+
+
+
+  .latest-newsletter-header{
+    background-color: aqua;
+    border: 20px solid black;
+    margin: 50px;
+   display: flex;
+   flex-direction: row-reverse;
+
+  }
+
+  .latest-newsletter-header h2{
+    color: rgb(223, 18, 18);
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+
+  }
+  
+
+  .latest-newsletter-header p{
+    
+    font-family: Times New Roman;
+    border: 15px solid yellow;
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+ 
+  }
   

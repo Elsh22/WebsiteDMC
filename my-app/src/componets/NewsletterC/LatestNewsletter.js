@@ -5,9 +5,10 @@ import img from '../../newassest/Newsletter.jpg';
 function LatestNewsletter() {
   return (
     <div className='latest-newsletter'>
-      <h2>Hello DMC Members,</h2>
-      <p>We have an exciting opportunity, especially for all majors looking to get more involved. We're eager to help everyone settle in and become a part of our vibrant community. If you're considering taking a more active role in our organization or joining one of our committees, we'd love to have you on board! Click on the links below to explore opportunities that align with your interests. This year, we're putting a special emphasis on increasing member involvement, and we'd be thrilled for you to be a part of that journey. Feel free to add the relevant links or other information where needed</p>
-      
+      <div className='latest-newsletter-header'>
+      <h2 className='Example_text'>Hello DMC Members BEHIND Closed Doors Podcast/DMC IT COMITTEE,</h2>
+      <p>YURRRRR WE OUT HEREWe have an exciting opportunity,WASSSGOOOD BUHG  I LOVE THE BEAUTIFUL CODES WE MAKE  especially for all majors looking to get more involved. We're eager to help everyone settle in and become a part of our vibrant community. If you're considering taking a more active role in our organization or joining one of our committees, we'd love to have you on board! Click on the links below to explore opportunities that align with your interests. This year, we're putting a special emphasis on increasing member involvement, and we'd be thrilled for you to be a part of that journey. Feel free to add the relevant links or other information where needed</p>
+      </div>
       <div className="image-container">
         <img src={img} alt="DMC" />
       </div>

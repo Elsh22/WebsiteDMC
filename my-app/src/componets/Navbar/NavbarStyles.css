@@ -1,5 +1,5 @@
 .NavbarItems {
-    background-color: #fff;
+    background-color: #58803e;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,14 +12,15 @@
     left: 50%;
     transform: translate(-50%);
     z-index: 9999;
-    color: black;
+    color: rgb(128, 34, 101);
     }
     
     .navbar-logo {
-    color: gold;
+    color: rgb(012, 255, 170);
     font-size: 2rem;
     cursor: pointer;
     margin-left: 2%;
+    font-family: 'Franklin Gothic Medium', 'Times New Roman', Arial, sans-serif;
     }
     
     .nav-menu{
